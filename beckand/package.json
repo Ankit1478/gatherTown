@@ -1,0 +1,23 @@
+{
+  "name": "beckand",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.21.1",
+    "@types/jsonwebtoken": "^9.0.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "jwt": "^0.2.0",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^5.21.1",
+    "redis": "^4.7.0"
+  }
+}
